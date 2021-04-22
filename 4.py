@@ -1,9 +1,7 @@
 num = int(input("Dame el número para calcular su factorial"))
-fin = 0
-lista = []
-multiplica = num
+factorial = 1
 
-for x in range(num-1):
-    lista+=[x]
-    multiplica = multiplica * x
-    print(multiplica)
+for i in range(1, num + 1):
+    print(i, factorial)
+    factorial = factorial * i
+print("El factorial de", num, "es:", factorial)
