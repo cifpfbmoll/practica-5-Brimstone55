@@ -1,6 +1,4 @@
 triangulo = int(input("altura"))
 
-for x in range (1, triangulo + 1):
-    for y in range(triangulo):
-        print("*", end="")
-    print("")
+for x in range (triangulo + 1, 0, -1):
+    print(x*"*")
